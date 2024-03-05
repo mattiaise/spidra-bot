@@ -1,0 +1,15 @@
+ADDITIONAL COMPONENTS:
+add camera 
+follow object (pad/people)
+add speaker???
+
+MOVE SET: 
+roll
+jump 
+say hello
+emote
+
+4/6/8 legs?
+can legs do 180 degrees?
+
+micropython/C???

@@ -1,0 +1,39 @@
+1x ESP32-WROOM-32E 
+1x elegoo MEGA2560 R3
+2x AZ-delivery nano
+1x 830 tie-points breadboard
+2x LCD1602 module (with pin header)
+1x prototype expansion module
+1x power supply module
+2x GY-521 module
+1x stepper motor 28BYJ-48 5v 
+1x ULN2003 stepper motor driver module
+1x HC-SR501 PIR motion sensor module
+1x sound sensor module
+1x water level detection sensor module
+1x DS1307 RTC module 
+1x DHT11 temperature and humidity module
+1x IR receiver module
+1x joystick module
+1x remote 
+1x MAX7219 module
+1x 1 digit 7-segment module
+1x 4 digit 7-segment module
+1x RFIO-RC522 module
+1x 5v relay
+1x fan blade and 3.6v motor 
+2x B10K pontentiometer 3 pin 
+1x red button
+30x resistor 220 ohm
+10x resistor 330 ohm
+10x resistor 1k ohm
+10x resistor 10 ohm
+10x resistor 100 ohm
+10x resistor 2k ohm
+10x resistor 5k1 ohm
+10x resistor 100k ohm
+10x resistor 1m ohm
+10x resistor 10k ohm
+4x 9v battery snap-on connection
+1x powerbank 5000mAh 3.7v
+1x Li-ion battery 110mAh 3.7v
