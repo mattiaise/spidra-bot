@@ -1,2 +1,3 @@
-# spidra-bot
-Provo a portare una nuova visione di Cod qui in Italia,o almeno ci provo!
+# Spidra-bot
+Robot controllato con applicazione attraverso pad xbox.
+

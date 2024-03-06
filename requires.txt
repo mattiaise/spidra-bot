@@ -1,0 +1,19 @@
+Simulation software for spidra-bot
+
+NVIDIA Isaac SIM
+https://developer.nvidia.com/isaac-sim
+
+Gazebo
+https://classic.gazebosim.org/tutorials?tut=ros_overview
+
+RoboDK
+https://robodk.com/
+
+Webots
+https://cyberbotics.com/
+
+Unity
+https://unity.com/solutions/automotive-transportation-manufacturing/robotics
+
+AWS RoboMaker
+https://aws.amazon.com/robomaker/
