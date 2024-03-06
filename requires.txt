@@ -17,3 +17,11 @@ https://unity.com/solutions/automotive-transportation-manufacturing/robotics
 
 AWS RoboMaker
 https://aws.amazon.com/robomaker/
+
+-------------------------------------------------------------------------------
+
+esp32-wifi-penetration-tool
+https://github.com/risinek/esp32-wifi-penetration-tool
+
+Gamepad tester
+https://github.com/risinek/esp32-wifi-penetration-tool
