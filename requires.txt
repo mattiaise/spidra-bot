@@ -1,3 +1,10 @@
+Pad tester
+
+GitHub repo pad tester open-source
+https://github.com/greggman/html5-gamepad-test?tab=readme-ov-file
+
+--------------------------------------------------------
+
 Simulation software for spidra-bot
 
 NVIDIA Isaac SIM
