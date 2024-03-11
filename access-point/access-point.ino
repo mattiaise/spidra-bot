@@ -1,5 +1,5 @@
 #include <WiFi.h>
-#include <LittleFS.h>
+#include <SPIFFS.h>
 
 // Replace with your network credentials
 const char* ssid     = "ESP32-Access-Point";
@@ -19,6 +19,7 @@ const int led2 = 2; // Built-in LED pin on ESP32
 
 void setup() {
   Serial.begin(115200);
+  
   // Initialize the output variable as an output
   pinMode(led2, OUTPUT);
   // Set output to LOW
@@ -33,7 +34,7 @@ void setup() {
   Serial.print("AP IP address: ");
   Serial.println(IP);
 
-  LittleFS.begin();
+  SPIFFS.begin();
   server.begin();
 }
 
@@ -51,25 +52,21 @@ void loop() {
           // that's the end of the client HTTP request, so send a response:
           if (currentLine.length() == 0) {
 
-            File file = LittleFS.open("C:/Users/Utente/Documents/GitHub/spidra-bot/access-point/data/index.html", "r");
-            if(!file) {
-              Serial.println("Error opening index.html");
-              return;
-            }
+            File html = SPIFFS.open("/index.html", "r");
 
             client.println("HTTP/1.1 200 OK");
             client.println("Content-type:text/html");
             client.println("Connection: close");
             client.println();
 
-            while (file.available()) {
-              client.print(file.readString());
+            while (html.available()) {
+              client.print(html.readString());
             }
             
             // The HTTP response ends with another blank line
             client.println();
             // Close the file
-            file.close();
+            html.close();
             // Break out of the while loop
             break;
           } else { // if you got a newline, then clear currentLine
