@@ -1,0 +1,1 @@
+Arduino IDE 1.8.x (SPIFFS, LittleFS compatible)
