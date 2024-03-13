@@ -1,11 +1,10 @@
 #include <WiFi.h>
 #include <SPIFFS.h>
+// initialize WebServer.h and use send func for comunication
 
-// Replace with your network credentials
 const char* ssid     = "ESP32-Access-Point";
 const char* password = "123456789";
 
-// Set web server port number to 80
 WiFiServer server(80);
 
 // Variable to store the HTTP request
